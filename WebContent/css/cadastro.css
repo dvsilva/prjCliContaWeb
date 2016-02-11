@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	/*Define  que todos os elementos da página, ficarão em negrito e com a fonte arial */
+	font-weight: bold;
+	font-family: arial;
+	/* Define a tamanho da fonte para todos os elementos */
+	font-size: 12px;
+}
+
+.body {
+	background-image: url(../imagens/bkg.jpg);
+	background-repeat: no-repeat;
+}
+
+.campos {
+	position: absolute;
+	left: 30%;
+	top: 30%;
+}
+
+.opcoes {
+	position: absolute;
+	left: 30%;
+	top: 90%;
+}
+
+.contaCorrente {
+	position: absolute;
+	left: 60%;
+	top: 70%;
+}
+
+.contaPoupanca {
+	position: absolute;
+	left: 60%;
+	top: 75%;
+}
+
+.edit {
+	/*Define a borda do elemento, com um efeito de baixo-relevo menor que o padrão */
+	border: 1px inset;
+	/*Especifica a cor cinza, como pano de fundo do elemento */
+	background-color: #D3D3D3;
+	/*Especifica como preta a  cor da fonte do elemento */
+	color: #000000;
+}
+
+.botoes {
+	/*Especifica a cor chocolate, como pano de fundo do elemento */
+	background-color: #D2691E;
+	/*Especifica como preta a cor da fonte do elemento */
+	color: #FFFFFF;
+	/*Define a borda do elemento, com um efeito de alto-relevo menor que o padrão */
+	border: 1px outset;
+}
+
+.rotulos {
+	/*Especifica preta a cor da fonte do elemento */
+	color: #000000;
+}
+
+legend {
+	/*Define a tamanho da fonte para a legenda do FieldSet */
+	font-size: 12px
+}
